@@ -1,126 +1,78 @@
 
-      O      A      N      O
-      Y      P      L      R
-      P      I      E      N
-      W      T      W      D
+      A      O      H      T
+      S      A      R      E
+      A      U      I      E
+      W      I      N      Y
 *************OUTPUT***************
-OPAL
-OPE
-OPEN
-OPED
-APE
-APED
-ALP
-ALIEN
-ALIT
-ALE
-NAY
-NAP
-NAPPY
-NAPPIER
-NAPE
-NOR
-OLE
-ORE
-Y
-YO
-YA
-YAN
-YANOLITE
-YAP
-YAPP
-YALI
-YALE
-YI
-YIP
-YIPE
-YIPPED
-YITE
-PAN
-PAY
-PAL
-PALE
-PALER
-PALED
-PLAN
-PLAY
-PLIED
-PLED
-PILE
-PILED
-PIP
-PIE
-PIER
-PIED
-PIT
-PER
-PEN
-PEND
-PET
-PEW
-PEWIT
-LAY
-LAP
-LORN
-LORE
-LIP
-LIPPY
-LIPPED
-LIE
-LIEN
-LIED
-LIT
-LITE
-LITER
-LEI
-LEND
-LET
-LEWD
-LED
-ROLE
-REP
-REPAY
-REPLAY
-RELAY
-RELIT
-REND
-RED
-PIPE
-PIPER
-PIPED
-ELAN
-ENROL
-END
-NET
-NEW
-NEWT
-WIPE
-WIPER
-WIPED
-WILE
-WILED
-WIT
-WITE
-TIP
-TILE
-TILER
-TILED
-TIPPLE
-TIPPLER
-TIPPLED
-TIPPER
-TIPPED
-TIE
-TIER
-TIED
-TERN
-TEN
-TEND
-WEN
-WEND
-WET
-WED
-DELAY
-DELI
-DEN
-DEW
+AA Points 1
+AAH Points 1
+AAS Points 1
+AAA Points 1
+OAR Points 1
+ORE Points 1
+HOS Points 1
+HORA Points 1
+HORAS Points 2
+HAS Points 1
+HART Points 1
+HARE Points 1
+HAIR Points 1
+HER Points 1
+HERO Points 1
+HEROS Points 2
+HERE Points 1
+HEREIN Points 3
+HEIR Points 1
+THO Points 1
+THREE Points 2
+THRU Points 1
+THE Points 1
+THERE Points 2
+THEREIN Points 5
+THEIR Points 2
+THEE Points 1
+TRAIN Points 2
+TRAINEE Points 5
+TREE Points 1
+TREY Points 1
+TEE Points 1
+TEEN Points 1
+TEENY Points 2
+SOAR Points 1
+SORT Points 1
+SORE Points 1
+SAREE Points 2
+SARI Points 1
+SAW Points 1
+SURE Points 1
+SUN Points 1
+ART Points 1
+ARE Points 1
+AIR Points 1
+RHO Points 1
+RHOS Points 1
+RAH Points 1
+RAIN Points 1
+RAINY Points 2
+REIN Points 1
+RUIN Points 1
+RUN Points 1
+RUNE Points 1
+ETHOS Points 2
+ERA Points 1
+ERAS Points 1
+ERE Points 1
+AURA Points 1
+AURAS Points 2
+URINE Points 2
+IRE Points 1
+INURE Points 2
+INERT Points 2
+ENURE Points 2
+WAS Points 1
+WAIN Points 1
+WIN Points 1
+WINIER Points 3
+WINE Points 1
+WINY Points 1
+NUS Points 1

@@ -11,9 +11,11 @@ namespace Boggle
     {
         private Dictionary<int, string> boggleDictionary;
         public Dictionary<string, string> validWords;
+        public int totalPoints { get; set; }
         public clsDictionary()
         {
             int key = 0;
+            totalPoints = 0;
             validWords = new Dictionary<string, string>();
             boggleDictionary = new Dictionary<int, string>();
             string file = System.Environment.CurrentDirectory + "\\words.txt";
@@ -40,7 +42,36 @@ namespace Boggle
                 {
                     try
                     {
-                        validWords.Add(str, str);
+                        int points = 0;
+                        int len = 0;
+                        if (str.Contains("Q"))
+                            len = str.Length + 1;
+                        else
+                            len = str.Length;
+                        switch (len)
+                        {
+                            case 1:
+                            case 2:
+                            case 3:
+                            case 4:
+                                points = 1;
+                                break;
+                            case 5:
+                                points = 2;
+                                break;
+                            case 6:
+                                points = 3;
+                                break;
+                            case 7:
+                                points = 5;
+                                break;
+                            default:
+                                points = 11;
+                                break;
+
+                        }
+                        this.totalPoints += points;
+                        validWords.Add(str, str + " Points " + points.ToString());
                     }
                     catch (System.ArgumentException)
                     {

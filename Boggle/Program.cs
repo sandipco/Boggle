@@ -30,14 +30,19 @@ namespace Boggle
             Console.WriteLine(" Sandip Timsina");
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Send in your feedback to sandipco@gmail.com");
-            Console.WriteLine("\n\n");
+            Console.WriteLine("\n");
             Console.WriteLine("*********************Rules**********************");
             Console.WriteLine("* Start with a letter and move in any direction to its adjacent neighbor");
             Console.WriteLine("and continue until you find a valid word");
+            Console.WriteLine("The 'Qu' cube counts as two letters");
             Console.WriteLine("* You cannot repeat a word");
-            Console.WriteLine("* You have to complete the game in 3 minutes");
+            Console.WriteLine("* You have to complete the game in 3 minutes\n");
+            Console.WriteLine("*******************SCORE************************");
+            Console.WriteLine("NO. OF LETTERS   3    4    5    6    7   8 or more");
+            Console.WriteLine("----------------------------------------------------");
+            Console.WriteLine("POINTS           1    1    2    3    5   11");
             Console.WriteLine("************************************************");
-            Console.WriteLine("\n\n");
+            Console.WriteLine("\n");
             objDictionary = new clsDictionary();
             clock = totalTime;
             parents = new List<string>();
@@ -60,6 +65,7 @@ namespace Boggle
             Console.BackgroundColor = ConsoleColor.Red;
             Console.WriteLine();
             beginProcess();
+            
             Console.ReadKey();
             
         }
@@ -94,6 +100,10 @@ namespace Boggle
                     Console.WriteLine(v.Value);
                 }
             }
+            Console.WriteLine();
+            Console.WriteLine("*************SCORE***********************");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("You could have achieved {0}", objDictionary.totalPoints);
             Console.ReadKey();
         }
         private static void beginProcess()
@@ -103,7 +113,7 @@ namespace Boggle
             //lookForWord("G", 0, 0);
             //foreach (var v in parents)
             //    Console.WriteLine("Parents " + v);
-            
+            Console.BackgroundColor = ConsoleColor.Black;
             for (int i = 0; i < 4; i++)
                 for (int j = 0; j < 4; j++)
                 {
@@ -216,12 +226,14 @@ namespace Boggle
                 printWords();
 
             }
+            Console.BackgroundColor = ConsoleColor.Red;
             int sec=(int)((clock % 60));
             string secs = sec.ToString();
             if (sec < 10)
                 secs = "0" + secs;
             int min =(int) (clock / 60);
             Console.Write("\r{0}:{1}   ", min,secs);
+            Console.BackgroundColor = ConsoleColor.Black;
         }
     }
 }

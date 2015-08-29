@@ -70,7 +70,7 @@ namespace Boggle
                                 break;
 
                         }
-                        this.totalPoints += points;
+                        this.totalPoints+=points;
                         validWords.Add(str, str + " Points " + points.ToString());
                     }
                     catch (System.ArgumentException)

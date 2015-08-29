@@ -233,7 +233,7 @@ namespace Boggle
                 secs = "0" + secs;
             int min =(int) (clock / 60);
             Console.Write("\r{0}:{1}   ", min,secs);
-            Console.BackgroundColor = ConsoleColor.Black;
+            Console.BackgroundColor = ConsoleColor.Black ;
         }
     }
 }

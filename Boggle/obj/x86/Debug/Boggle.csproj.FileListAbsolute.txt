@@ -1,0 +1,5 @@
+F:\Works\Boggle\Boggle\bin\Debug\Boggle.exe
+F:\Works\Boggle\Boggle\bin\Debug\Boggle.pdb
+F:\Works\Boggle\Boggle\obj\x86\Debug\Boggle.exe
+F:\Works\Boggle\Boggle\obj\x86\Debug\Boggle.pdb
+F:\Works\Boggle\Boggle\obj\x86\Debug\Boggle.csprojResolveAssemblyReference.cache
